@@ -34,7 +34,7 @@ class _PageViewOrnekState extends State<PageViewOrnek> {
                   children: <Widget>[
                     Text("Sayfa 0", style: TextStyle(fontSize: 30),),
                     RaisedButton(onPressed: (){
-                      //myController.jumpToPage(2);
+                      myController.jumpToPage(2);
                       //myController.jumpTo(600);
                     },
                     child: Text("2. sayfaya git"),)

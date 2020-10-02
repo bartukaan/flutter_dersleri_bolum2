@@ -21,7 +21,7 @@ class _TabOrnekState extends State<TabOrnek>
     return Scaffold(
       appBar: AppBar(
         title: Text("Tab Kullanımı"),
-        bottom: tabBarimBottom(),
+        bottom: tabBarim(),
       ),
       bottomNavigationBar: tabBarimBottom(),
       body: TabBarView(controller: tabController,children: <Widget>[
